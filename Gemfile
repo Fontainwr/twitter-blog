@@ -47,6 +47,14 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem "sassc-rails"
 
+
+
+#bulma
+gem 'bulma-rails', '~> 0.9.4'
+
+#simple form
+gem 'simple_form', '~> 5.2'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -64,6 +72,16 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  #make better errors better looking
+  gem 'better_errors', '~> 2.10'
+
+  #guard 2.18.0
+  gem 'guard', '~> 2.18'
+
+  #guard-livereload
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
 end
 
 group :test do
